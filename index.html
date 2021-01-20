@@ -9,26 +9,69 @@
     <link rel="stylesheet" type="text/css" href="examples.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
-    <style>
+ <style>
 
 	/* Style for our header texts
 	* --------------------------------------- */
-	h1{
-		font-size: 5em;
+	h4{
 		font-family: arial,helvetica;
 		color: #fff;
 		margin:0;
+        padding-bottom: 20px;
 	}
 	.intro p{
 		color: #fff;
 	}
 
-    #section1
 	/* Centered texts in each section
 	* --------------------------------------- */
 	.section{
 		text-align:center;
 	}
+
+    #section0,
+	#section1,
+	#section2,
+	#section3,
+    #section4,
+    #slide1,
+    #slide2{
+		background-size: cover;
+	}
+
+	/* Defining each sectino background and styles
+	* --------------------------------------- */
+	#section0{
+		background-image: url(primera.jpg);
+	}
+	#section0 h1{
+		top: 50%;
+		transform: translateY(-50%);
+		position: relative;
+	}
+	#section1{
+		background-image: url(segunda.jpg);
+	}
+	#section2{
+		background-image: url(tres.jpg);
+	}
+
+
+    #section3{
+		background-image: url(cuatro.jpg);
+	}
+
+    #section4{
+		background-image: url(cinco.jpg);
+	}
+
+   
+
+
+
+	
+
+
 
 	/* Overwriting styles for control arrows for slides
 	* --------------------------------------- */
@@ -39,19 +82,24 @@
 		right: 50px;
 	}
 
+    p{
+        color: white;
+    }
+
 
 	/* Bottom menu
 	* --------------------------------------- */
 	#infoMenu li a {
 		color: #fff;
 	}
-	</style>
+</style>
 </head>
 <body>
 
     <div id="fullpage">
         <div class="section intro" id="section0">
-            <h1> Elegí qué querés escuchar</h1>
+            <h2> Capítulo 1</h2>´
+            <h4>¿Cómo llegué hasta acá?</h4>
             <button type="button" class="btn btn-light">Toca aquí para activar el sonido</button>
             <audio controls="hidden" hidden data-autoplay>
                 <source  src="Radio.mp3" type="audio/mpeg">
@@ -60,39 +108,57 @@
 
         </div>
 
-            <!-- MALUMA -->
+            <!-- Uno-->
        
         <div class="section" id="section1">
-          <h1>Maluma</h1>
+          <p> Cuando me sacudió mi madre,</p>
+          <p>"¡Despertate, bo!"", yo reaccioné y la miré,</p>
+          <p> "¡Cómo te vas a dormir sentada drogada al lado de la gurisa!"</p>
           <audio controls="hidden" hidden data-autoplay>
-              <source  src="maluma.mp3" type="audio/mpeg">
-              Your browser does not support the audio element.
-          </audio>
+            <source src="cuando.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
         </div>
 
-        <!-- Karol G -->
+        <!-- DOS
+        "Ella siempre estuvo con mi madre, porque estuve presa la primera vez, después salí y estuve re poco tiempo con ella, después volví a la cárcel"
+        -->
 
         <div class="section" id="section2">
-            <h1>Karol G</h1>
+            <p>"Ella siempre estuvo con mi madre,</p>
+            <p>porque estuve presa la primera vez,</p>
+            <p>después salí y estuve re poco tiempo con ella,</p>
+            <p>después volví a la cárcel"</p>
             <audio controls="hidden" hidden data-autoplay>
-                <source src="karol.mp3" type="audio/mpeg">
+                <source src="madre.mp3" type="audio/mpeg">
                 Your browser does not support the audio element.
             </audio>
+            
         </div>
 
-     <!-- Yatra -->
+     <!-- TRES 
+    
+    -->
 
        <div class="section" id="section3">
-            <h1>Yatra</h1>
+            <p> "Antes yo tenía todo,</p>
+            <p>pero ¿por qué tenía todo?</p>
+            <p>Porque vendía droga"</p>
             <audio controls="hidden" hidden data-autoplay>
-                <source src="Yatra.mp3" type="audio/mpeg">
+                <source src="Todo.mp3" type="audio/mpeg">
                 Your browser does not support the audio element.
             </audio>
      </div>
 
         <div class="section" id="section4">
-            <h5>Un video para probar si se abre bien</h5>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/WiVt6Qqk0Q0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>     
+            <p>"Él cumplió un año y a los días yo fui.</p>
+            <p>Él cumplió el 17 y yo el 23 fui presa.. </p>
+            <p>dos años tenía cuando fui la segunda vez,</p>
+            <p>un año cuando fui la primera"</p>
+            <audio controls="hidden" hidden data-autoplay>
+                <source src="cumplanos.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
         </div>
     </div>
 
@@ -109,7 +175,14 @@
         anchors: ['firstPage', 'secondPage', '3rdPage', '4rdPage', '5rdPage'],
         navigation: true,
         navigationPosition: 'right',
-        navigationTooltips: ['Inicio', 'Maluma', 'Karol G', 'Yatra', 'Video']
+        navigationTooltips: ['Inicio', 'Maluma', 'Karol G', 'Yatra', 'Video'],
+        css3:false,
+
+        onLeave: function(origin, destination, direction){
+          if(destination.index === 2){
+             destination.item.classList.add('load-background');
+          }
+        }
     });
 </script>
     
