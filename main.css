@@ -1,0 +1,54 @@
+body, html{
+
+height: 100%;
+}
+
+
+
+/* Letras */
+
+h1{
+    color: white;
+    text-align: center;
+    
+}
+
+
+h3{
+    color: white;
+    align-self: center;
+}
+
+/* Slides */
+
+.slide{
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+}
+
+
+button{
+    align-self: center;
+}
+
+.uno{
+    background-color: #ffcdb2;
+    display: block;
+
+}
+
+.dos{
+    background-color: #ffb4a2;
+}
+
+.tres{
+    background-color: #e5989b;
+}
+
+.cuatro{
+    background-color: #b5838d;
+}
