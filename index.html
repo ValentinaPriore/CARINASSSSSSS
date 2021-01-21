@@ -13,7 +13,7 @@
 
 	/* Style for our header texts
 	* --------------------------------------- */
-	h4{
+	h4, h2{
 		font-family: arial,helvetica;
 		color: #fff;
 		margin:0;
@@ -65,12 +65,6 @@
 		background-image: url(cinco.jpg);
 	}
 
-   
-
-
-
-	
-
 
 
 	/* Overwriting styles for control arrows for slides
@@ -84,6 +78,11 @@
 
     p{
         color: white;
+
+    }
+
+    li{
+        color: white;
     }
 
 
@@ -91,98 +90,156 @@
 	* --------------------------------------- */
 	#infoMenu li a {
 		color: #fff;
-	}
+    }
+    
+/* Fade in Fabian te adoro
+	* --------------------------------------- */
+    .fade-in {
+  animation: fadeIn ease 1s;
+  -webkit-animation: fadeIn ease 1s;
+  -moz-animation: fadeIn ease 1s;
+  -o-animation: fadeIn ease 1s;
+  -ms-animation: fadeIn ease 1s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
 </style>
 </head>
-<body>
+<body>    
+    <div class="fade-in" >  
+        <div id="fullpage">
+            <div class="section intro" id="section0">
+                <h2> Capítulo 1</h2>´
+                <h4>¿Cómo llegué hasta acá?</h4>
+                <a href="#secondPage"> <button type="button" class="btn btn-light"> Comenzar</button> </a>
+                <audio controls="hidden" hidden data-autoplay>"
+                    <source  src="Radio.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
 
-    <div id="fullpage">
-        <div class="section intro" id="section0">
-            <h2> Capítulo 1</h2>´
-            <h4>¿Cómo llegué hasta acá?</h4>
-            <button type="button" class="btn btn-light">Toca aquí para activar el sonido</button>
+            </div>
+
+                <!-- Uno-->
+        
+            <div class="section" id="section1">
+            <p> Cuando me sacudió mi madre,</p>
+            <p>"¡Despertate, bo!"", yo reaccioné y la miré,</p>
+            <p> "¡Cómo te vas a dormir sentada drogada al lado de la gurisa!"</p>
             <audio controls="hidden" hidden data-autoplay>
-                <source  src="Radio.mp3" type="audio/mpeg">
+                <source src="cuando.mp3" type="audio/mpeg">
                 Your browser does not support the audio element.
             </audio>
+            </div>
 
-        </div>
+            <!-- DOS
+            "Ella siempre estuvo con mi madre, porque estuve presa la primera vez, después salí y estuve re poco tiempo con ella, después volví a la cárcel"
+            -->
 
-            <!-- Uno-->
-       
-        <div class="section" id="section1">
-          <p> Cuando me sacudió mi madre,</p>
-          <p>"¡Despertate, bo!"", yo reaccioné y la miré,</p>
-          <p> "¡Cómo te vas a dormir sentada drogada al lado de la gurisa!"</p>
-          <audio controls="hidden" hidden data-autoplay>
-            <source src="cuando.mp3" type="audio/mpeg">
-            Your browser does not support the audio element.
-        </audio>
-        </div>
+            <div class="section" id="section2">
+                <p>"Ella siempre estuvo con mi madre,</p>
+                <p>porque estuve presa la primera vez,</p>
+                <p>después salí y estuve re poco tiempo con ella,</p>
+                <p>después volví a la cárcel"</p>
+                <audio controls="hidden" hidden data-autoplay>
+                    <source src="madre.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                
+            </div>
 
-        <!-- DOS
-        "Ella siempre estuvo con mi madre, porque estuve presa la primera vez, después salí y estuve re poco tiempo con ella, después volví a la cárcel"
+        <!-- TRES 
+        
         -->
 
-        <div class="section" id="section2">
-            <p>"Ella siempre estuvo con mi madre,</p>
-            <p>porque estuve presa la primera vez,</p>
-            <p>después salí y estuve re poco tiempo con ella,</p>
-            <p>después volví a la cárcel"</p>
-            <audio controls="hidden" hidden data-autoplay>
-                <source src="madre.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio>
-            
+        <div class="section" id="section3">
+                <p> "Antes yo tenía todo,</p>
+                <p>pero ¿por qué tenía todo?</p>
+                <p>Porque vendía droga"</p>
+                <audio controls="hidden" hidden data-autoplay>
+                    <source src="Todo.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
         </div>
 
-     <!-- TRES 
-    
-    -->
-
-       <div class="section" id="section3">
-            <p> "Antes yo tenía todo,</p>
-            <p>pero ¿por qué tenía todo?</p>
-            <p>Porque vendía droga"</p>
-            <audio controls="hidden" hidden data-autoplay>
-                <source src="Todo.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio>
-     </div>
-
-        <div class="section" id="section4">
-            <p>"Él cumplió un año y a los días yo fui.</p>
-            <p>Él cumplió el 17 y yo el 23 fui presa.. </p>
-            <p>dos años tenía cuando fui la segunda vez,</p>
-            <p>un año cuando fui la primera"</p>
-            <audio controls="hidden" hidden data-autoplay>
-                <source src="cumplanos.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio>
+            <div class="section" id="section4">
+                <p>"Él cumplió un año y a los días yo fui.</p>
+                <p>Él cumplió el 17 y yo el 23 fui presa.. </p>
+                <p>dos años tenía cuando fui la segunda vez,</p>
+                <p>un año cuando fui la primera"</p>
+                <button  class="btn btn-secondary"> Ir al capítulo 2</button>
+                <audio controls="hidden" hidden data-autoplay>
+                    <source src="cumplanos.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
         </div>
     </div>
+    
+    
+  
 
 
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="fullpage.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+<script type="text/javascript" src="fullpage.js"></script>
 <script type="text/javascript" src="examples.js"></script>
 
 <script type="text/javascript">
     var myFullpage = new fullpage('#fullpage', {
-        sectionsColor: ['#ffcdb2', '#ffb4a2', '#e5989b', '#b5838d', '#6d6875'],
+        sectionsColor: ['#000000', '#ffb4a2', '#e5989b', '#b5838d', '#6d6875'],
         anchors: ['firstPage', 'secondPage', '3rdPage', '4rdPage', '5rdPage'],
         navigation: true,
         navigationPosition: 'right',
-        navigationTooltips: ['Inicio', 'Maluma', 'Karol G', 'Yatra', 'Video'],
-        css3:false,
+        navigationTooltips: ['Inicio', 'Sección 1', 'Sección 2', 'Sección 3', 'Sección 4'],
 
-        onLeave: function(origin, destination, direction){
-          if(destination.index === 2){
-             destination.item.classList.add('load-background');
-          }
-        }
+       
     });
 </script>
     
