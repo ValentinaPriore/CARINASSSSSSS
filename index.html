@@ -150,6 +150,82 @@ a{
     text-decoration: none;
     color: gray;
 }
+
+
+.fp-viewing-firstPage .primerparrafo {
+    animation: delay 3s; 
+}
+
+.fp-viewing-firstPage .segundoparrafo {
+    animation: delay 6s;
+}
+
+.fp-viewing-firstPage .tercerparrafo {
+    animation: delay 9s;
+}
+
+
+.fp-viewing-secondPage .primerparrafo {
+    animation: delay 3s; 
+}
+
+.fp-viewing-secondPage .segundoparrafo {
+    animation: delay 6s;
+}
+
+.fp-viewing-secondPage .tercerparrafo {
+    animation: delay 9s;
+}
+
+
+.fp-viewing-3rdPage .primerparrafo {
+    animation: delay 3s; 
+}
+
+.fp-viewing-3rdPage .segundoparrafo {
+    animation: delay 6s;
+}
+
+.fp-viewing-3rdPage .tercerparrafo {
+    animation: delay 9s;
+}
+
+
+
+.fp-viewing-4rdPage .primerparrafo {
+    animation: delay 3s; 
+}
+
+.fp-viewing-4rdPage .segundoparrafo {
+    animation: delay 6s;
+}
+
+.fp-viewing-4rdPage .tercerparrafo {
+    animation: delay 9s;
+}
+
+.fp-viewing-5rdPage .primerparrafo {
+    animation: delay 3s; 
+}
+
+.fp-viewing-5rdPage .segundoparrafo {
+    animation: delay 6s;
+}
+
+.fp-viewing-5rdPage .tercerparrafo {
+    animation: delay 9s;
+}
+
+@keyframes delay {
+    0%{opacity: 0%; transform: translateY(-50px); }
+   50%{
+    opacity: 0%
+   }
+   100%{ opacity: 100% ;
+
+   }
+}
+
 </style>
 </head>
 <body>    
@@ -169,9 +245,9 @@ a{
                 <!-- Uno-->
         
             <div class="section" id="section1">
-            <p> Cuando me sacudió mi madre,</p>
-            <p>"¡Despertate, bo!"", yo reaccioné y la miré,</p>
-            <p> "¡Cómo te vas a dormir sentada drogada al lado de la gurisa!"</p>
+            <p class="primerparrafo"> Cuando me sacudió mi madre,</p>
+            <p class="segundoparrafo">"¡Despertate, bo!"", yo reaccioné y la miré,</p>
+            <p class="tercerparrafo"> "¡Cómo te vas a dormir sentada drogada al lado de la gurisa!"</p>
             <audio controls="hidden" hidden data-autoplay>
                 <source src="cuando.mp3" type="audio/mpeg">
                 Your browser does not support the audio element.
@@ -183,10 +259,10 @@ a{
             -->
 
             <div class="section" id="section2">
-                <p>"Ella siempre estuvo con mi madre,</p>
-                <p>porque estuve presa la primera vez,</p>
-                <p>después salí y estuve re poco tiempo con ella,</p>
-                <p>después volví a la cárcel"</p>
+                <p style="animation-delay: 1s;" class="primerparrafo">"Ella siempre estuvo con mi madre,</p>
+                <p class="segundoparrafo">porque estuve presa la primera vez,</p>
+                <p class="tercerparrafo">después salí y estuve re poco tiempo con ella,</p>
+                <p class="cuartoparrafo">después volví a la cárcel"</p>
                 <audio controls="hidden" hidden data-autoplay>
                     <source src="madre.mp3" type="audio/mpeg">
                     Your browser does not support the audio element.
@@ -199,9 +275,9 @@ a{
         -->
 
         <div class="section" id="section3">
-                <p> "Antes yo tenía todo,</p>
-                <p>pero ¿por qué tenía todo?</p>
-                <p>Porque vendía droga"</p>
+                <p class="primerparrafo"> "Antes yo tenía todo,</p>
+                <p class="segundoparrafo">pero ¿por qué tenía todo?</p>
+                <p class="tercerparrafo">Porque vendía droga"</p>
                 <audio controls="hidden" hidden data-autoplay>
                     <source src="Todo.mp3" type="audio/mpeg">
                     Your browser does not support the audio element.
@@ -209,10 +285,10 @@ a{
         </div>
 
             <div class="section" id="section4">
-                <p>"Él cumplió un año y a los días yo fui.</p>
-                <p>Él cumplió el 17 y yo el 23 fui presa.. </p>
-                <p>dos años tenía cuando fui la segunda vez,</p>
-                <p>un año cuando fui la primera"</p>
+                <p class="primerparrafo">"Él cumplió un año y a los días yo fui.</p>
+                <p class="segundoparrafo"> Él cumplió el 17 y yo el 23 fui presa.. </p>
+                <p class="tercerparrafo">dos años tenía cuando fui la segunda vez,</p>
+                <p class="cuartoparrafo">un año cuando fui la primera"</p>
                 <button  class="btn btn-secondary"> Ir al capítulo 2</button>
                 <audio controls="hidden" hidden data-autoplay>
                     <source src="cumplanos.mp3" type="audio/mpeg">
