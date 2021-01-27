@@ -3,21 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Quiero mi Pizza</title>
+    <title> Cautivos: Voces de una maternidad en el encierro</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" type="text/css" href="fullpage.css" />
     <link rel="stylesheet" type="text/css" href="examples.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 <link rel="stylesheet" href="main.css">
 <link rel="stylesheet" href="https://use.typekit.net/ixy8sxr.css">
+<script>
+  /* Set the width of the sidebar to 250px (show it) */
+function openNav() {
+  document.getElementById("mySidepanel").style.width = "250px";
+}
 
-
-
+/* Set the width of the sidebar to 0 (hide it) */
+function closeNav() {
+  document.getElementById("mySidepanel").style.width = "0";
+}
+</script>
 </head>
 <body>    
     <div class="fade-in" >  
       <div id="header">
-        Capítulo 1: ¿Cómo llegué hasta acá?
+
+        <div id="mySidepanel" class="sidepanel">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="#">Sobre Cautivos</a>
+          <a href="#">Capítulo 1</a>
+          <a href="#">Capítulo 2</a>
+          <a href="#">Capítulo 3</a>
+          <a href="#">Capítulo 4</a>
+          <a href="#">Equipo</a>
+        </div>
+        
+        <button class="openbtn" onclick="openNav()">&#9776; </button>
+
+        <!-- //Nav Bar -->
+       
+        
+
       </div>
 
         <div id="fullpage">
@@ -101,10 +125,11 @@
 <script type="text/javascript">
     var myFullpage = new fullpage('#fullpage', {
         sectionsColor: ['#000000', '#ffb4a2', '#e5989b', '#b5838d', '#6d6875'],
-        anchors: ['firstPage', 'secondPage', '3rdPage', '4rdPage', '5rdPage'],
         navigation: true,
         navigationPosition: 'right',
-        navigationTooltips: ['Inicio', 'Sección 1', 'Sección 2', 'Sección 3', 'Sección 4'],
+        navigationTooltips: ['Inicio', 'Sección 1', 'Sección 2', 'Sección 3', 'Sección 4'],     
+        css3: true,
+
 
        
     });
