@@ -2,11 +2,14 @@
 /* Style for our header texts
 * --------------------------------------- */
 h4, h2{
-    font-family: arial,helvetica;
     color: #fff;
     margin:0;
     padding-bottom: 20px;
 }
+
+p, h1, h2, h3, h4, h5, h6, a {
+    font-family: aileron, sans-serif;}
+
 .intro p{
     color: #fff;
 }
@@ -150,8 +153,6 @@ opacity:1;
 }
 
 
-
-
 body{
 background-color: black;
 }
@@ -191,7 +192,6 @@ opacity: 0%
 	* --------------------------------------- */
 	h1{
 		font-size: 5em;
-		font-family: arial,helvetica;
 		color: #fff;
 		margin:0;
 		padding:0;
