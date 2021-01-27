@@ -1776,6 +1776,9 @@
           
         }
 
+        /* Set the width of the sidebar to 250px (show it) */
+
+
         /**
         * Dispatch events & callbacks making sure it does it on the right format, depending on
         * whether v2compatible is being used or not.
