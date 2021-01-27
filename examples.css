@@ -63,7 +63,15 @@ h1{
 }
 p{
 	font-size: 2em;
+	margin: 40px;
 }
+
+@media only screen and (max-width: 600px){
+	p{
+		font-size: 1.3em;	
+	}
+}
+
 .intro p{
 	width: 50%;
 	margin: 0 auto;
