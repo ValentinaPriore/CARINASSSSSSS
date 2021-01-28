@@ -36,27 +36,28 @@ font-weight: 100;
 /* Defining each sectino background and styles
 * --------------------------------------- */
 #section0{
-    background-image: url(primera.jpg);
+    background-image: url(primera.png);
 }
+
 #section0 h1{
     top: 50%;
     transform: translateY(-50%);
     position: relative;
 }
 #section1{
-    background-image: url(segunda.jpg);
+    background-image: url(segunda.png);
 }
 #section2{
-    background-image: url(tres.jpg);
+    background-image: url(tres.png);
 }
 
 
 #section3{
-    background-image: url(cuatro.jpg);
+    background-image: url(cuatro.png);
 }
 
 #section4{
-    background-image: url(cinco.jpg);
+    background-image: url(cinco.png);
 }
 
 
@@ -210,7 +211,7 @@ opacity: 0%
 	#header, #footer{
 		position:fixed;
 		height: 50px;
-		display:block;
+		display: block;
 		width: 100%;
 		background: transparent;
 		z-index:9;
@@ -222,7 +223,18 @@ opacity: 0%
         top:0px;
         position: absolute;
     }
-    
+  
+    #footer{
+      bottom:40px;
+      padding-right: 40px;
+    }
+
+
+  
+  #redes {
+    width: 20px;
+    margin: 10px 0px 10px 10px;
+  }  
     /* The sidepanel menu */
 .sidepanel {
  /* Specify a height */
