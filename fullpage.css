@@ -10,7 +10,6 @@
  */
 html.fp-enabled,
 .fp-enabled body {
-    
     margin: 0;
     padding: 0;
     overflow:hidden;
@@ -171,7 +170,7 @@ html.fp-enabled,
     height: 4px;
     width: 4px;
     border: 0;
-    background: white;
+    background: #333;
     left: 50%;
     top: 50%;
     margin: -2px 0 0 -2px;
