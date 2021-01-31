@@ -1,0 +1,24 @@
+body, html{
+    background-image: url(../img/fondo.png) ;
+    background-size: cover;
+}
+
+
+h1, h2, h3, h4, h5, h6, a, p, span {
+    color: white ;
+  }
+
+  .card{
+      border-color: white;
+    
+      background-color: #222021;
+
+                margin: 10px;
+
+  }
+
+  .container{
+    margin-top: 150px;
+    margin-bottom: 80px;
+
+  }
