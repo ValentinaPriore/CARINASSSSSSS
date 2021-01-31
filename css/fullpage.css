@@ -190,7 +190,9 @@ html.fp-enabled,
     top: -2px;
     color: #fff;
     font-size: 14px;
-    font-family: arial, helvetica, sans-serif;
+    font-family: aileron, sans-serif;
+    font-weight: 100;
+    font-style: normal;
     white-space: nowrap;
     max-width: 220px;
     overflow: hidden;
