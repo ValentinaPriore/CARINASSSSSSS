@@ -5,10 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Equipo | Cautivos</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="css/main.css">
 <link rel="stylesheet" href="https://use.typekit.net/ixy8sxr.css">
+<link rel="stylesheet" href="https://use.typekit.net/ixy8sxr.css">
+<link rel="shortcut icon" href="img/icon-tab.png">
+<link rel="stylesheet" href="css/equipo.css">
+
+<script>
+    /* Set the width of the sidebar to 250px (show it) */
+  function openNav() {
+    document.getElementById("mySidepanel").style.width = "250px";
+  }
+
+  /* Set the width of the sidebar to 0 (hide it) */
+  function closeNav() {
+    document.getElementById("mySidepanel").style.width = "0";
+  }
+</script>
+
 </head>
 <body>
+  <div id="header" class="d-flex justify-content-between">
+    
+    <div id="mySidepanel" class="sidepanel">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">Sobre Cautivos</a>
+      <a href="#">Capítulo 1</a>
+      <a href="#">Capítulo 2</a>
+      <a href="#">Capítulo 3</a>
+      <a href="#">Capítulo 4</a>
+      <a href="#">Equipo</a>
+    </div>
+    
+    <div > <button class="openbtn " onclick="openNav()">&#9776; </button> </div>
+    
+
+    <div ><img  style="width: 200px;" src="img/LOGO.png" alt=""> </div>
+    <div> </div>
+
+   
+    
+
+  </div>
+
+
 
     <div class="container justify-content-md-center" >
         <h1 class="text-center">Equipo </h1>    
@@ -22,23 +62,24 @@
 
 <div style="margin: 10px;" class="row">
 
-    <div  class="col-sm">
-      <div  class="card">
+
+    <div class="col-sm">
+      <div class="card">
         <div class="card-body">
-          <h5 class="card-title">Agustina <span style="text-decoration: line-through;">Roveta</span> </h5>
+          <h3 class="card-title">Carina <span style="text-decoration: line-through;">Machado</span> </h3>
           <p class="card-text">Algo que quieran escribir</p>
-          <a class="card-link" href=""> Linked in</a>
+          <a class="card-link" href="https://www.linkedin.com/in/carina-machado-leal/"> Linked in</a>
           <a class="card-link" href=""> Mail</a>
         </div>
       </div>
     </div>
 
     <div class="col-sm">
-      <div class="card">
+      <div  class="card">
         <div class="card-body">
-          <h5 class="card-title">Carina <span style="text-decoration: line-through;">Machado</span> </h5>
+          <h3 class="card-title">Tatiana <span style="text-decoration: line-through;">Oviedo</span> </h3>
           <p class="card-text">Algo que quieran escribir</p>
-          <a class="card-link" href=""> Linked in</a>
+          <a class="card-link" href="https://www.linkedin.com/in/tatianaoviedocurbelo/"> Linked in</a>
           <a class="card-link" href=""> Mail</a>
         </div>
       </div>
@@ -47,24 +88,26 @@
     <div  class="col-sm">
         <div  class="card">
           <div class="card-body">
-            <h5 class="card-title">Lucas Perini</h5>
+            <h3 class="card-title">Lucas <span style="text-decoration: line-through;">Perini</span> </h3>
             <p class="card-text">Algo que quieran escribir</p>
-            <a class="card-link" href=""> Linked in</a>
+            <a class="card-link" href="https://www.linkedin.com/in/lucas-perini-est%C3%A9vez-606020151/"> Linked in</a>
             <a class="card-link" href=""> Mail</a>
           </div>
         </div>
       </div>
 
-      <div class="col-sm">
+      <div  class="col-sm">
         <div  class="card">
           <div class="card-body">
-            <h5 class="card-title">Tatiana Oviedo</h5>
+            <h3 class="card-title">Agustina <span style="text-decoration: line-through;">Rovetta</span> </h3>
             <p class="card-text">Algo que quieran escribir</p>
-            <a class="card-link" href=""> Linked in</a>
+            <a class="card-link" href="https://www.linkedin.com/in/agustina-rovetta-morales-31a860140/"> Linked in</a>
             <a class="card-link" href=""> Mail</a>
           </div>
         </div>
       </div>
+
+    
   </div>
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
