@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Cautivos: Voces de una maternidad en el encierro</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" type="text/css" href="fullpage.css" />
-    <link rel="stylesheet" type="text/css" href="examples.css" />
+    <link rel="stylesheet" type="text/css" href="css/fullpage.css" />
+    <link rel="stylesheet" type="text/css" href="css/examples.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="css/main.css">
 <link rel="stylesheet" href="https://use.typekit.net/ixy8sxr.css">
-<link rel="shortcut icon" href="LOGO.png">
+<link rel="shortcut icon" href="img/icon-tab.png">
 <script>
   /* Set the width of the sidebar to 250px (show it) */
 function openNav() {
@@ -21,12 +20,27 @@ function openNav() {
 function closeNav() {
   document.getElementById("mySidepanel").style.width = "0";
 }
+
+const popup = document.querySelector('.full-screen');
+
+function showPopup(){
+  popup.classList.remove('hidden');
+}
+
+function closePopup(){
+  popup.classList.add('hidden');
+}
 </script>
 </head>
-<body>    
-    <div class="fade-in" >  
-      <div id="header" class="d-flex ustify-content-around">
+<body>  
 
+     
+    <div class="fade-in" >  
+   
+
+    </div>
+      <div id="header" class="d-flex justify-content-between">
+    
         <div id="mySidepanel" class="sidepanel">
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
           <a href="#">Sobre Cautivos</a>
@@ -40,7 +54,7 @@ function closeNav() {
         <div > <button class="openbtn " onclick="openNav()">&#9776; </button> </div>
         
 
-        <div ><img  style="width: 200px;" src="LOGO.png" alt=""> </div>
+        <div ><img  style="width: 200px;" src="img/LOGO.png" alt=""> </div>
         <div> </div>
 
        
@@ -49,13 +63,15 @@ function closeNav() {
       </div>
 
 
-        <div id="fullpage">
+        <div onclick="closeNav()" id="fullpage">
+
             <div class="section intro" id="section0">
-                <h2> Capítulo 1</h2>´
-                <h4>¿Cómo llegué hasta acá?</h4>
-                <a href="#secondPage" ><button type="button"  class="btn btn-light"> Comenzar</button></a>
+               
+                <h4> CAPÍTULO 1</h4>
+                <h1>¿Cómo llegué hasta acá?</h1>
+                <a href="#secondPage" ><button type="button"  class="comenzar btn btn-outline-light"> Comenzar</button></a>
                 <audio controls="hidden" hidden data-autoplay>"
-                    <source  src="Radio.mp3" type="audio/mpeg">
+                    <source  src="Audios/Radio.mp3" type="audio/mpeg">
                     Your browser does not support the audio element.
                 </audio>
 
@@ -68,7 +84,8 @@ function closeNav() {
             <p class="segundoparrafo">"¡Despertate, bo!"", yo reaccioné y la miré,</p>
             <p class="tercerparrafo"> "¡Cómo te vas a dormir sentada drogada al lado de la gurisa!"</p>
             <audio controls="hidden" hidden data-autoplay>
-                <source src="cuando.mp3" type="audio/mpeg">
+                <source src="Audios/cuando.mp3" type="audio/mpeg">
+                <source src="Audios/cuando.ogg" type="audio/mpeg">
                 Your browser does not support the audio element.
             </audio>
             
@@ -84,10 +101,12 @@ function closeNav() {
                 <p class="tercerparrafo">después salí y estuve re poco tiempo con ella,</p>
                 <p class="cuartoparrafo">después volví a la cárcel"</p>
                 <audio controls="hidden" hidden data-autoplay>
-                    <source src="madre.mp3" type="audio/mpeg">
+                    <source src="Audios/madre.mp3" type="audio/mpeg">
+                    <source src="Audios/madre.ogg" type="audio/mpeg">
+
                     Your browser does not support the audio element.
                 </audio>
-                <button type="button" class="btn btn-secondary">Leer "El camino hacia las condenas"</button>
+                <button type="button" class="btn btn-secondary">Leer "Adentro"</button>
 
                 
             </div>
@@ -101,7 +120,9 @@ function closeNav() {
                 <p class="segundoparrafo">pero ¿por qué tenía todo?</p>
                 <p class="tercerparrafo">Porque vendía droga"</p>
                 <audio controls="hidden" hidden data-autoplay>
-                    <source src="Todo.mp3" type="audio/mpeg">
+                    <source src="Audios/Todo.mp3" type="audio/mpeg">
+                    <source src="Audios/Todo.ogg" type="audio/mpeg">
+
                     Your browser does not support the audio element.
                 </audio>
                 <button type="button" class="btn btn-secondary">Leer "El camino hacia las condenas"</button>
@@ -115,7 +136,9 @@ function closeNav() {
                 <p class="cuartoparrafo">un año cuando fui la primera"</p>
                 <button  class="btn btn-secondary"> Ir al capítulo 2</button>
                 <audio controls="hidden" hidden data-autoplay>
-                    <source src="cumplanos.mp3" type="audio/mpeg">
+                    <source src="Audios/cumplanos.mp3" type="audio/mpeg">
+                    <source src="Audios/cumplanos.ogg" type="audio/mpeg">
+
                     Your browser does not support the audio element.
                 </audio>
             </div>
@@ -126,9 +149,14 @@ function closeNav() {
   
     <div class="d-flex justify-content-end"id="footer">
         <ul >
-            <a href="https://www.instagram.com/cautivosuy/"> <img id="redes" src="instagram.png" alt=""></a>
-            <a href="https://twitter.com/CautivosUy"> <img id="redes" src="twitter.png" alt=""></a>
-            <a href=""> <img id="redes" src="spotify.png" alt=""></a>
+            <a href="https://soundcloud.com/cautivos-164747482"> <img class="redes" src="img/soundcloud.png" alt="Soundcloud"></a>
+            <a href="https://podcasts.apple.com/us/podcast/cautivos/id1549508647"> <img class="redes" src="img/podcast-apple.png" alt="Apple podcast"></a>
+            <a href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy80ODQ5MTBlMC9wb2RjYXN0L3Jzcw?sa=X&ved=0CBQQ27cFahcKEwiY0arLh6vuAhUAAAAAHQAAAAAQAQ"> <img class="redes" src="img/google.png" alt="Google Podcast"></a>
+            <a href="https://open.spotify.com/show/6z5XOUK6zqnhvBAPZbVxwq"> <img class="redes" src="img/spotify.png" alt="Spotify"></a>
+            <img class="redes" src="Img/linea.png">
+            <a href="https://www.instagram.com/cautivosuy/"> <img class="redes" src="Img/instagram.png" alt="instagram"></a>
+            <a href="https://twitter.com/CautivosUy"> <img class="redes" src="Img/twitter.png" alt="twitter"></a>
+
           
         </ul>
 
@@ -136,8 +164,8 @@ function closeNav() {
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
-<script type="text/javascript" src="fullpage.js"></script>
-<script type="text/javascript" src="examples.js"></script>
+<script type="text/javascript" src="js/fullpage.js"></script>
+<script type="text/javascript" src="js/examples.js"></script>
 
 <script type="text/javascript">
     var myFullpage = new fullpage('#fullpage', {
