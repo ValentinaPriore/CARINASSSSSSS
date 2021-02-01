@@ -33,6 +33,10 @@ h1, h2, h3, h4, h5, h6, a, p, span {
 
 }
 
+#spinner{
+  width: 100vw;
+  height: 100vh;
+}
 
 /* Centered texts in each section
 * --------------------------------------- */
@@ -271,13 +275,17 @@ opacity: 0%
   }  
 
   a .redes:hover{
-    width: 40px;
     opacity: 1;
-    transition: width 0.5s;
-    margin: 20px 0px 20px 20px;
-
+    transition:  0.5s;
+    margin-bottom: 18px;
 
   }
+
+
+
+
+
+
     /* The sidepanel menu */
 .sidepanel {
  /* Specify a height */
