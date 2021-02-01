@@ -27,11 +27,15 @@ function closeNav() {
 
      
     <div class="fade-in" >  
-   
+      <audio id="primero" controls="hidden" hidden >
+                    <source  src="Audios/Sonido Fondo.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio> 
 
     </div>
-      <div id="header" class="d-flex justify-content-between">
+      <div id="header" class="d-flex ">
        
+
         <div id="mySidepanel" class="sidepanel">
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
           <a href="#">Sobre Cautivos</a>
@@ -46,7 +50,9 @@ function closeNav() {
         
 
         <div ><img  style="width: 200px;" src="img/LOGO.png" alt=""> </div>
-        <div> </div>
+        <!-- <div> 
+            <a href="" onclick="allSoundOff()"><img class="redes" src="img/no-sound.png" alt=""></a>
+        </div> -->
 
        
         
@@ -56,17 +62,15 @@ function closeNav() {
 
         <div onclick="closeNav()" id="fullpage">
 
-
+                
             <div class="section intro" id="section0">
                
                 <h4> CAPÍTULO 1</h4>
                 <h1>¿Cómo llegué hasta acá?</h1>
+                <button type="button" onclick="activarSonido()"  class="comenzar btn btn-outline-light">Activar sonido</button>
                 <a href="#secondPage" ><button type="button"  class="comenzar btn btn-outline-light"> Comenzar</button></a>
-                
-            <audio controls="hidden" hidden data-autoplay data-keepplaying>"
-                <source  src="Audios/Sonido Fondo.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio> 
+             
+               
            
 
             </div>
@@ -153,7 +157,7 @@ function closeNav() {
             <img class="redes" src="img/linea.png">
             <a href="https://www.instagram.com/cautivosuy/"> <img class="redes" src="img/instagram.png" alt="instagram"></a>
             <a href="https://twitter.com/CautivosUy"> <img class="redes" src="img/twitter.png" alt="twitter"></a>
-
+             
           
         </ul>
 
