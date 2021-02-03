@@ -33,37 +33,33 @@ function closeNav() {
     
 
     <div id="main" class="fade-in" style="visibility: hidden;" >  
-      <audio id="primero" controls="hidden" hidden >
+      <audio id="primero" controls="hidden" hidden loop>
                     <source  src="Audios/Sonido Fondo.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
                     </audio> 
 
 
-      <div id="header" class="d-flex ">
-       
+        <div id="header" class="d-flex">
+        
 
-        <div id="mySidepanel" class="sidepanel">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-          <a href="#">Sobre Cautivos</a>
-          <a href="#">Capítulo 1</a>
-          <a href="#">Capítulo 2</a>
-          <a href="#">Capítulo 3</a>
-          <a href="#">Capítulo 4</a>
-          <a href="#">Equipo</a>
+                <div id="mySidepanel" class="sidepanel">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <a href="index.html">Sobre Cautivos</a>
+                        <a href="capitulo1.html">Capítulo 1</a>
+                        <a href="capitulo2.html">Capítulo 2</a>
+                        <a href="capitulo3.html">Capítulo 3</a>
+                        <a href="capitulo4.html">Capítulo 4</a>
+                        <a href="equipo.html"></a>Equipo</a>
+                </div>
+                    
+                <div class="p2"> <button class="openbtn btn" onclick="openNav()">&#9776; </button> </div>
+                
+                <div class="p2"> <img  style="width: 200px;" src="img/LOGO.png" alt=""> </div>
+
+                <div class="ml-auto p2"> <button onclick="mute()" class="btn " > <img id="sound" class="redes"  src="img/no-sound.png" alt=""></button> </div>
+            
+
         </div>
-        
-        <div > <button class="openbtn " onclick="openNav()">&#9776; </button> </div>
-        
-
-        <div ><img  style="width: 200px;" src="img/LOGO.png" alt=""> </div>
-        <!-- <div> 
-            <a href="" onclick="allSoundOff()"><img class="redes" src="img/no-sound.png" alt=""></a>
-        </div> -->
-
-       
-        
-
-      </div>
 
 
         <div onclick="closeNav()" id="fullpage">
@@ -108,13 +104,10 @@ function closeNav() {
                 <audio controls="hidden" hidden data-autoplay>
                     <source src="Audios/madre.mp3" type="audio/mpeg">
                     <source src="Audios/madre.ogg" type="audio/mpeg">
-
                     Your browser does not support the audio element.
                 </audio>
                 <a href="texto1.html"><button type="button" class="btn btn-outline-light">Leé "Adentro"</button></a>
-                
-
-                
+                               
             </div>
 
         <!-- TRES 
@@ -180,9 +173,7 @@ function closeNav() {
         navigationPosition: 'right',
         navigationTooltips: ['Inicio', 'Sección 1', 'Sección 2', 'Sección 3', 'Sección 4'],     
         css3: true,
-        anchors: ['firstPage', 'secondPage', '3rdPage', '4rdPage', '5rdPage'],
-
-
+        anchors: ['firstPage', 'secondPage', '3rdPage', '4rdPage', '5rdPage']
        
     });
 </script>
