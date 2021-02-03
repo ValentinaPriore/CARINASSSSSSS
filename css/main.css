@@ -80,10 +80,71 @@ h1, h2, h3, h4, h5, h6, a, p, span {
     background-image: url(../img/flor1-13.jpg);
 }
 
+#section5{
+  background: -webkit-gradient(linear, top left, bottom left, from(#4f4f4f), to(#4a4a4a));
+  background: -webkit-linear-gradient(#4f4f4f, #4a4a4a);
+  background: linear-gradient(#4f4f4f,#4a4a4a);
+}
 
+#section6{
+  background: -webkit-gradient(linear, top left, bottom left, from(#4a4a4a), to(#444444));
+  background: -webkit-linear-gradient(#4a4a4a, #444444);
+  background: linear-gradient(#4a4a4a,#444444);
+}
 
+#section7{
+  background: -webkit-gradient(linear, top left, bottom left, from(#444444), to(#3d3d3d));
+  background: -webkit-linear-gradient(#444444, #3d3d3d);
+  background: linear-gradient(#444444,#3d3d3d);
+}
 
+#section8{
+  background: -webkit-gradient(linear, top left, bottom left, from(#3d3d3d), to(#363636));
+  background: -webkit-linear-gradient(#3d3d3d, #363636);
+  background: linear-gradient(#3d3d3d,#363636);
+}
 
+#section9{
+  background: -webkit-gradient(linear, top left, bottom left, from(#363636), to(#303030));
+  background: -webkit-linear-gradient(#363636, #303030);
+  background: linear-gradient(#363636,#303030);
+}
+
+#section10{
+  background: -webkit-gradient(linear, top left, bottom left, from(#303030), to(#292929));
+  background: -webkit-linear-gradient(#303030, #292929);
+  background: linear-gradient(#303030,#292929);
+}
+
+#section11{
+  background: -webkit-gradient(linear, top left, bottom left, from(#292929), to(#1f1f1f));
+  background: -webkit-linear-gradient(#292929, #1f1f1f);
+  background: linear-gradient(#292929,#1f1f1f);
+}
+
+#section12{
+  background: -webkit-gradient(linear, top left, bottom left, from(#1f1f1f), to(#181818));
+  background: -webkit-linear-gradient(#1f1f1f, #181818);
+  background: linear-gradient(#1f1f1f,#181818);
+}
+
+#section13{
+  background: -webkit-gradient(linear, top left, bottom left, from(#181818), to(#121212));
+  background: -webkit-linear-gradient(#181818, #121212);
+  background: linear-gradient(#181818,#121212);
+}
+
+#section14{
+  background: -webkit-gradient(linear, top left, bottom left, from(#121212), to(#0b0b0b));
+  background: -webkit-linear-gradient(#121212, #0b0b0b);
+  background: linear-gradient(#121212,#0b0b0b);
+}
+
+#section15{
+  background: -webkit-gradient(linear, top left, bottom left, from(#0b0b0b), to(#000000));
+  background: -webkit-linear-gradient(#0b0b0b, #000000);
+  background: linear-gradient(#0b0b0b,#000000);
+}
 /* Overwriting styles for control arrows for slides
 * --------------------------------------- */
 .controlArrow.prev {
