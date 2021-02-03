@@ -59,12 +59,9 @@ h1, h2, h3, h4, h5, h6, a, p, span {
 #section0{
     background-image: url(../img/primera.png);
 }
-
 .comenzar {
     bottom: 0px;
   }
-
-
 
 #section0 h1{
     position: relative;
@@ -75,8 +72,6 @@ h1, h2, h3, h4, h5, h6, a, p, span {
 #section2{
     background-image: url(../img/tres.png);
 }
-
-
 #section3{
     background-image: url(../img/cuatro.png);
 }
@@ -247,7 +242,7 @@ opacity: 0%
 	#header, #footer{
 		position:fixed;
 		height: 50px;
-		display: block;
+		display: flex;
 		width: 100%;
 		background: transparent;
 		z-index:9;
@@ -280,11 +275,18 @@ opacity: 0%
     margin-bottom: 18px;
 
   }
+  
+  .mute{
+    border-color: transparent;
+  }
 
+  .mute:hover{
+    border-color: transparent;
+  }
 
-
-
-
+  .mute:active{
+    border-color: transparent;
+  }
 
     /* The sidepanel menu */
 .sidepanel {
