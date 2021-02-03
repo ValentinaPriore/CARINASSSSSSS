@@ -39,27 +39,31 @@ function closeNav() {
                     </audio> 
 
 
-        <div id="header" class="d-flex">
-        
-
-                <div id="mySidepanel" class="sidepanel">
-                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                        <a href="index.html">Sobre Cautivos</a>
-                        <a href="capitulo1.html">Capítulo 1</a>
-                        <a href="capitulo2.html">Capítulo 2</a>
-                        <a href="capitulo3.html">Capítulo 3</a>
-                        <a href="capitulo4.html">Capítulo 4</a>
-                        <a href="equipo.html"></a>Equipo</a>
-                </div>
-                    
-                <div class="p2"> <button class="openbtn btn" onclick="openNav()">&#9776; </button> </div>
-                
-                <div class="p2"> <img  style="width: 200px;" src="img/LOGO.png" alt=""> </div>
-
-                <div class="ml-auto p2"> <button onclick="mute()" class="btn " > <img id="sound" class="redes"  src="img/no-sound.png" alt=""></button> </div>
+                    <div id="header" class="justify-content-between">
+                        <div style="display: inline-flex;">
+                            <div id="mySidepanel" class="sidepanel">
+                                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                                <a href="index.html">Sobre Cautivos</a>
+                                <a href="capitulo1.html">Capítulo 1</a>
+                                <a href="capitulo2.html">Capítulo 2</a>
+                                <a href="capitulo3.html">Capítulo 3</a>
+                                <a href="capitulo4.html">Capítulo 4</a>
+                                <a href="equipo.html"></a>Equipo</a>
+                             </div>
+                            
+                             <div > <button class="openbtn btn" onclick="openNav()">&#9776; </button> </div>
+                        
+                            <div> <img  style="width: 200px;" src="img/LOGO.png" alt=""> </div>
             
-
-        </div>
+                        </div>
+            
+                            
+            
+                        <div > <button onclick="mute()" class="btn" > <img id="sound" class="redes"  src="img/no-sound.png" alt=""></button> </div>
+                        
+            
+                    </div>
+            
 
 
         <div onclick="closeNav()" id="fullpage">
@@ -134,12 +138,11 @@ function closeNav() {
                 <p class="primerparrafo">"Él cumplió un año y a los días yo fui.</p>
                 <p class="segundoparrafo"> Él cumplió el 17 y yo el 23 fui presa </p>
                 <p class="tercerparrafo">la primera vez.</p>
-                <button  class="btn btn-secondary"> Ir al capítulo 2</button>
+                <button onclick="window.location = 'capitulo2.html' "  class="btn btn-secondary"> Ir al capítulo 2</button>
                 <audio controls="hidden" hidden data-autoplay>
                     <source src="Audios/cumplanos.mp3" type="audio/mpeg">
                     <source src="Audios/cumplanos.ogg" type="audio/mpeg">
-
-                    Your browser does not support the audio element.
+                     Your browser does not support the audio element.
                 </audio>
             </div>
         </div>
