@@ -1,7 +1,19 @@
 
 
 function activarSonido(){
-    document.getElementById("primero").play()
+
+    let audios = document.getElementsByTagName("audio") 
+    let primeraudio = document.getElementById("primero")
+
+    primeraudio.play()
+    document.getElementById("sound").src = "img/sound-on.png"
+   
+    if(primeraudio.muted === true){
+        for (let i = 0; i < audios.length; i++) {
+            audios[i].muted = false
+        }
+    }
+
 }
 
 window.addEventListener('load', function () {
@@ -9,9 +21,7 @@ window.addEventListener('load', function () {
     document.getElementById("main").style.visibility = "visible"
   })
 
-  $(function () {
-    $('[data-toggle="tooltip"]').tooltip()
-  })
+
 
 
   function mute() {
