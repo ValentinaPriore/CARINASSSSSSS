@@ -84,6 +84,7 @@ h1, h2, h3, h4, h5, h6, a, p, span {
   background: -webkit-gradient(linear, top left, bottom left, from(#4f4f4f), to(#4a4a4a));
   background: -webkit-linear-gradient(#4f4f4f, #4a4a4a);
   background: linear-gradient(#4f4f4f,#4a4a4a);
+  
 }
 
 #section6{
@@ -145,6 +146,37 @@ h1, h2, h3, h4, h5, h6, a, p, span {
   background: -webkit-linear-gradient(#0b0b0b, #000000);
   background: linear-gradient(#0b0b0b,#000000);
 }
+
+#section16{
+  background: url(../img/captres-uno.jpg);
+  background-size: cover;
+}
+
+#section17{
+  background: url(../img/captres-dos.gif);
+  background-size: cover;
+}
+
+#section18{
+  background: url(../img/captres-tres.gif);
+  background-size: cover;
+}
+
+#section19{
+  background: url(../img/captres-cuatro.gif);
+  background-size: cover;
+}
+
+#section20{
+  background: url(../img/captres-cinco.gif);
+  background-size: cover;
+}
+
+
+
+
+
+
 /* Overwriting styles for control arrows for slides
 * --------------------------------------- */
 .controlArrow.prev {
@@ -354,7 +386,7 @@ opacity: 0%
  /* Specify a height */
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
+    z-index: 8; /* Stay on top */
     top: 0;
     left: 0;
     background-color: #111; /* Black*/
@@ -399,3 +431,6 @@ opacity: 0%
   .openbtn:hover {
     background-color: #444;
   }
+
+  /* video
+* --------------------------------------- */
