@@ -110,7 +110,7 @@ function closeNav() {
                     <source src="Audios/madre.ogg" type="audio/mpeg">
                     Your browser does not support the audio element.
                 </audio>
-                <a href="texto1.html"><button type="button" class="btn btn-outline-light">Leé "Adentro"</button></a>
+                <a href="Adentro.html"><button type="button" class="btn btn-outline-light">Leé "Adentro"</button></a>
                                
             </div>
 
@@ -119,6 +119,7 @@ function closeNav() {
         -->
 
         <div class="section" id="section3">
+            <div class="slide" id="slide1" data-anchor="slide1">
                 <p class="primerparrafo"> "Ves que tenés y tenés, tenés plata, tenés comodidad, todo y te viciás.</p>
                 <p class="segundoparrafo">Es como la droga, la fumás y te envicia. </p>
                 <p class="tercerparrafo">Te enviciás, te enviciás y querés más, más, más.</p>
@@ -129,8 +130,15 @@ function closeNav() {
 
                     Your browser does not support the audio element.
                 </audio>
-                <a href="texto1.html"><button type="button" class="btn btn-outline-light">Leé "El camino hacia las condenas"</button>
-                </a>
+                <button type="button" class="btn btn-outline-light">Tabla</button>
+            </div>
+
+            <div class="slide" id="slide2" data-anchor="slide2">
+                <iframe height="500px" class="col-8" src="https://infogram.com/mujeres-procesadas-por-estupefacientes-en-uruguay-2000-2018-1h0n25y85vn9l6p" frameborder="0"></iframe>
+                <button type="button" class="btn btn-outline-light col-6">volver</button>
+
+            </div>
+
 
         </div>
 
@@ -138,6 +146,7 @@ function closeNav() {
                 <p class="primerparrafo">"Él cumplió un año y a los días yo fui.</p>
                 <p class="segundoparrafo"> Él cumplió el 17 y yo el 23 fui presa </p>
                 <p class="tercerparrafo">la primera vez.</p>
+                <a href="El camino hacia las condenas.html"><button type="button" class="btn btn-outline-light">Leé "El camino hacia las condenas"</button></a>
                 <button onclick="window.location = 'capitulo2.html'"  class="btn btn-secondary"> Ir al capítulo 2</button>
                 <audio controls="hidden" hidden data-autoplay>
                     <source src="Audios/cumplanos.mp3" type="audio/mpeg">
@@ -176,7 +185,9 @@ function closeNav() {
         navigationPosition: 'right',
         navigationTooltips: ['Inicio', 'Sección 1', 'Sección 2', 'Sección 3', 'Sección 4'],     
         css3: true,
-        anchors: ['firstPage', 'secondPage', '3rdPage', '4rdPage', '5rdPage']
+        anchors: ['firstPage', 'secondPage', '3rdPage', '4rdPage', '5rdPage'],
+        slidesNavigation: false
+
        
     });
 </script>
