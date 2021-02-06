@@ -49,6 +49,7 @@ h1, h2, h3, h4, h5, h6, a, p, span {
 #section2,
 #section3,
 #section4,
+#section16,
 #slide1,
 #slide2{
     background-size: cover;
@@ -164,7 +165,9 @@ h1, h2, h3, h4, h5, h6, a, p, span {
   
 }
 
-
+#section16{
+  background-image: url(../img/captres-uno.jpg);
+}
 
 #section17{
   background: url(../img/captres-dos.gif);
@@ -186,6 +189,10 @@ h1, h2, h3, h4, h5, h6, a, p, span {
   background-size: cover;
 }
 
+#section21{
+  background: url(../img/capcuatro-uno.gif);
+  background-size: cover;
+}
 
 
 
