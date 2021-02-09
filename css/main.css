@@ -342,6 +342,9 @@ opacity: 0%
 		color: #fff;
 	}
 
+  
+
+
   @media only screen and (max-width: 600px){
     p{
       font-size: 1.3em;	
@@ -350,6 +353,8 @@ opacity: 0%
       font-size: 2em;
       }
   }
+  
+  
 
 	/* Fixed header and footer.
 	* --------------------------------------- */
