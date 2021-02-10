@@ -199,6 +199,24 @@ h1, h2, h3, h4, h5, h6, a, p, span {
   background-size: cover;
 }
 
+#section22{
+  background: url(../img/fondodos.jpg);
+  background-size: cover;
+}
+
+#section23{
+  background: url(../img/fondodos.jpg);
+  background-size: cover;
+}
+#section24{
+  background: url(../img/fondodos.jpg);
+  background-size: cover;
+}
+
+#section25{
+  background: url(../img/fondodos.jpg);
+  background-size: cover;
+}
 
 
 
@@ -411,7 +429,23 @@ opacity: 0%
 
   }  
 
+  .final{
+    width: 80px;
+    margin: 20px;
+    opacity: 0.8;
+
+  }
+
   a .redes:hover{
+    opacity: 1;
+    transition:  0.5s;
+    margin-bottom: 30px;
+    width: 80px;
+
+
+  }
+
+  a .final:hover{
     opacity: 1;
     transition:  0.5s;
     margin-bottom: 18px;
