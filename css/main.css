@@ -440,7 +440,7 @@ opacity: 0%
     opacity: 1;
     transition:  0.5s;
     margin-bottom: 30px;
-    width: 80px;
+    width: 18px;
 
 
   }
@@ -448,7 +448,7 @@ opacity: 0%
   a .final:hover{
     opacity: 1;
     transition:  0.5s;
-    margin-bottom: 18px;
+    margin-bottom: 30px;
 
   }
   
