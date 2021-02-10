@@ -359,6 +359,24 @@ animation: delay 12s;
   animation: delay 12s;
   }
 
+  .active .slide .fp-tableCell .primerparrafo {
+    animation: delay 3s; 
+    }
+    
+    .active .slide .fp-tableCell .segundoparrafo {
+    animation: delay 6s;
+    }
+    
+    .active .slide .fp-tableCell .tercerparrafo {
+    animation: delay 9s;
+    }
+    
+    .active .slide .fp-tableCell .cuartoparrafo {
+    animation: delay 12s;
+    }
+
+  
+
 @keyframes delay {
 0%{opacity: 0%; transform: translateY(-50px); }
 50%{
