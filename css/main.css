@@ -89,16 +89,16 @@ h1, h2, h3, h4, h5, h6, a, p, span {
 #section6{
   background-image:url(../img/Capdos-uno.png), url(../img/fondo.png);
   background-repeat: no-repeat, no-repeat;
-  background-size: 300px, cover;
-  background-position: 80% 80%;
+  background-size: 250px, cover;
+  background-position: 10% 80%;
   
 }
 
 #section7{
   background-image:url(../img/Capdos-dos.png), url(../img/fondo.png);
   background-repeat: no-repeat, no-repeat;
-  background-size: 300px, cover;
-  background-position: 10%, bottom;
+  background-size: 250px, cover;
+  background-position: 8%, bottom;
 }
 
 #section8{
@@ -145,7 +145,7 @@ h1, h2, h3, h4, h5, h6, a, p, span {
   background-image:url(../img/Capdos-ocho.png), url(../img/fondo.png);
   background-repeat: no-repeat, no-repeat;
   background-size: 200px, cover;
-  background-position: 80%, 90%;
+  background-position: 90%, 90%;
   
 
 }
@@ -153,7 +153,7 @@ h1, h2, h3, h4, h5, h6, a, p, span {
 #section14{
   background-image:url(../img/Capdos-nueve.png), url(../img/fondo.png);
   background-repeat: no-repeat, no-repeat;
-  background-size: 300px, cover;
+  background-size: 150px, cover;
   background-position: 10%, bottom;
 }
 
@@ -161,7 +161,7 @@ h1, h2, h3, h4, h5, h6, a, p, span {
   background-image:url(../img/Capdos-diez.png), url(../img/fondo.png);
   background-repeat: no-repeat, no-repeat;
   background-size: 200px, cover;
-  background-position: 80%, 80%;
+  background-position: 95%, 90%;
   
 }
 
