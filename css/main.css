@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6, a, p, span {
 }
 
 #section6{
-  background-image:url(../img/Capdos-uno.png), linear-gradient(to bottom , #5f5f5f, #5a5a5a);
+  background-image:url(../img/Capdos-uno.png), url(../img/fondo.png);
   background-repeat: no-repeat, no-repeat;
   background-size: 300px, cover;
   background-position: 80% 80%;
@@ -95,14 +95,14 @@ h1, h2, h3, h4, h5, h6, a, p, span {
 }
 
 #section7{
-  background-image:url(../img/Capdos-dos.png), linear-gradient(to bottom , #5a5a5a, #555555);
+  background-image:url(../img/Capdos-dos.png), url(../img/fondo.png);
   background-repeat: no-repeat, no-repeat;
   background-size: 300px, cover;
   background-position: 10%, bottom;
 }
 
 #section8{
-  background-image:url(../img/Capdos-tres.png), linear-gradient(to bottom , #555555, #505050);
+  background-image:url(../img/Capdos-tres.png), url(../img/fondo.png);
   background-repeat: no-repeat, no-repeat;
   background-size: 500px, cover;
   background-position: 50%, bottom;
@@ -110,7 +110,7 @@ h1, h2, h3, h4, h5, h6, a, p, span {
 }
 
 #section9{
-  background-image:url(../img/Capdos-cuatro.png), linear-gradient(to bottom ,#505050, #4a4a4a);
+  background-image:url(../img/Capdos-cuatro.png), url(../img/fondo.png);
   background-repeat: no-repeat, no-repeat;
   background-size: 200px, cover;
   background-position: 10%, bottom;
@@ -118,7 +118,7 @@ h1, h2, h3, h4, h5, h6, a, p, span {
 }
 
 #section10{
-  background-image:url(../img/Capdos-cinco.png), linear-gradient(to bottom , #4a4a4a,#424242);
+  background-image:url(../img/Capdos-cinco.png), url(../img/fondo.png);
   background-repeat: no-repeat, no-repeat;
   background-size: 200px, cover;
   background-position: 10%, bottom;
@@ -126,7 +126,7 @@ h1, h2, h3, h4, h5, h6, a, p, span {
 }
 
 #section11{
-  background-image:url(../img/Capdos-seis.png), linear-gradient(to bottom , #424242, #3a3a3a);
+  background-image:url(../img/Capdos-seis.png), url(../img/fondo.png);
   background-repeat: no-repeat, no-repeat;
   background-size: 300px, cover;
   background-position: 90%, 90%;
@@ -134,7 +134,7 @@ h1, h2, h3, h4, h5, h6, a, p, span {
 }
 
 #section12{
-  background-image:url(../img/Capdos-siete.png), linear-gradient(to bottom ,#3a3a3a, #333333);
+  background-image:url(../img/Capdos-siete.png), url(../img/fondo.png);
   background-repeat: no-repeat, no-repeat;
   background-size: 200px, cover;
   background-position: 10%, bottom;
@@ -142,7 +142,7 @@ h1, h2, h3, h4, h5, h6, a, p, span {
 }
 
 #section13{
-  background-image:url(../img/Capdos-ocho.png), linear-gradient(to bottom , #333333, #2c2c2c);
+  background-image:url(../img/Capdos-ocho.png), url(../img/fondo.png);
   background-repeat: no-repeat, no-repeat;
   background-size: 200px, cover;
   background-position: 80%, 90%;
@@ -151,14 +151,14 @@ h1, h2, h3, h4, h5, h6, a, p, span {
 }
 
 #section14{
-  background-image:url(../img/Capdos-nueve.png), linear-gradient(to bottom , #2c2c2c, #272727);
+  background-image:url(../img/Capdos-nueve.png), url(../img/fondo.png);
   background-repeat: no-repeat, no-repeat;
   background-size: 300px, cover;
   background-position: 10%, bottom;
 }
 
 #section15{
-  background-image:url(../img/Capdos-diez.png), linear-gradient(to bottom , #272727, #202020);
+  background-image:url(../img/Capdos-diez.png), url(../img/fondo.png);
   background-repeat: no-repeat, no-repeat;
   background-size: 200px, cover;
   background-position: 80%, 80%;
@@ -166,7 +166,7 @@ h1, h2, h3, h4, h5, h6, a, p, span {
 }
 
 #section152{
-  background-image:linear-gradient(to bottom , #202020, #111111);
+  background-image: url(../img/fondo.png) ;
 
 }
 
